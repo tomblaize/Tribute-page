@@ -21,6 +21,11 @@ body{
  #img-div{
    background-color: white;
    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
  }
  
  img{
@@ -28,5 +33,43 @@ body{
  }
  
  #image{
-   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #img-caption{
+  text-align: center;
+  font-size: 14px;
+ }
+
+ #subtitle{
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 600;
+ }
+
+ #tribute-info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ ul{
+  max-width: 550px;
+ }
+
+ li{
+  margin: 20px;
+  text-align: justify;
+ }
+
+ #quote{
+  font-style: italic;
+  margin: 20px;
+  text-align: justify;
+  max-width: 500px;
  }
